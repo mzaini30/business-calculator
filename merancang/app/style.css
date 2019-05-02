@@ -2,6 +2,19 @@ body {
 	padding-top: 70px;
 }
 
+.table tbody tr td {
+	padding: 0;
+}
+
 .form-control {
-	
+	border: none;
+}
+
+.form-control:focus {
+	border-color: inherit;
+	box-shadow: inherit;
+	-webkit-box-shadow: inherit;
+	-moz-box-shadow: inherit;
+	-ms-box-shadow: inherit;
+	-o-box-shadow: inherit;
 }
