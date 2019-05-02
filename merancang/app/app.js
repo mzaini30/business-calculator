@@ -13,21 +13,22 @@ $(".navbar-nav a").click(function(){
 // })
 
 total = 0
-jumlah_baris = 1
+// jumlah_baris = 1
 
 $('input').on('keyup', function(){
 	total = 0
 
 	// tambah baris baru
 
-	if ($('.table tr:nth-child(' + jumlah_baris + ') td:nth-child(1) .form-control').val() != ''){
-		$(this).css({
-			'color': 'green'
-		})
-		$(this).parent().parent().parent().append('<tr><td><input type="tel" class="form-control"></td><td><input type="tel" class="form-control"></td><td><input type="tel" class="form-control" disabled=""></td></tr>')
-		jumlah_baris++
-		console.log(jumlah_baris)
-	}
+	// if ($('.terakhir').val() != ''){
+	// 	$(this).removeClass('terakhir')
+	// 	$(this).parent().parent().parent().append('<tr><td><input type="tel" class="form-control terakhir"></td><td><input type="tel" class="form-control"></td><td><input type="tel" class="form-control" disabled=""></td></tr>')
+	// 	$('.terakhir').css({
+	// 		'color': 'red'
+	// 	})
+	// 	// jumlah_baris++
+	// 	// console.log(jumlah_baris)
+	// }
 
 	// 1 + 1 = 2
 
