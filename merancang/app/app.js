@@ -8,6 +8,6 @@ $(".navbar-nav a").click(function(){
 	$('.navbar-toggle').click()
 })
 
-$('.input tr td:nth-child(1)').css({
+$('.table tr td:nth-child(1)').css({
 	'background': 'green'
 })
