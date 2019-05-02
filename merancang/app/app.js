@@ -5,5 +5,5 @@ $(".navbar-brand").click(function(){
 })
 
 $(".navbar-nav a").click(function(){
-	
+	$('.navbar-toggle').click()
 })
