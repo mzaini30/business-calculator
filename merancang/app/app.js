@@ -19,9 +19,12 @@ $('input').on('keyup', function(){
 
 	// tambah baris baru
 
-	// if (parseInt($('.table tr:last-child td:nth-child(1) .form-control').val()) > 0){
-	// 	$(this).parent().parent().parent().append('<tr><td><input type="tel" class="form-control"></td><td><input type="tel" class="form-control"></td><td><input type="tel" class="form-control" disabled=""></td></tr>')
-	// }
+	if (parseInt($('.table tr:last-child td:nth-child(1) .form-control').val()) > 0){
+		$(this).css({
+			'color': 'green'
+		})
+		$(this).parent().parent().parent().append('<tr><td><input type="tel" class="form-control"></td><td><input type="tel" class="form-control"></td><td><input type="tel" class="form-control" disabled=""></td></tr>')
+	}
 
 	// 1 + 1 = 2
 
