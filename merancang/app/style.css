@@ -18,3 +18,8 @@ body {
 	-ms-box-shadow: inherit;
 	-o-box-shadow: inherit;
 }
+
+.hasil {
+	border: none;
+	background: inherit;
+}

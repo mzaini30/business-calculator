@@ -16,6 +16,9 @@ total = 0
 
 $('input').on('keyup', function(){
 	total = 0
+
+	// 1 + 1 = 2
+
 	$('.table tr').each(function(){
 		satu = $(this).find('td:nth-child(1) .form-control').val()
 		dua = $(this).find('td:nth-child(2) .form-control').val()
@@ -25,6 +28,9 @@ $('input').on('keyup', function(){
 		// 	'background': 'green'
 		// })
 	})
+
+	// jumlah semuanya
+
 	$('.table tr td:nth-child(3) .form-control').each(function(){
 		if (parseInt($(this).val()) >= 0){
 			total += parseInt($(this).val())
