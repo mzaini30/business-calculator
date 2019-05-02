@@ -17,6 +17,12 @@ total = 0
 $('input').on('keyup', function(){
 	total = 0
 
+	// tambah baris baru
+
+	// if (parseInt($('.table tr:last-child td:nth-child(1) .form-control').val()) > 0){
+	// 	$(this).parent().parent().parent().append('<tr><td><input type="tel" class="form-control"></td><td><input type="tel" class="form-control"></td><td><input type="tel" class="form-control" disabled=""></td></tr>')
+	// }
+
 	// 1 + 1 = 2
 
 	$('.table tr').each(function(){
