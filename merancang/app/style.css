@@ -10,7 +10,7 @@ body {
 	border: none;
 }
 
-.table-bordered .form-control:focus {
+.form-control:focus {
 	border-color: inherit;
 	box-shadow: inherit;
 	-webkit-box-shadow: inherit;
@@ -22,4 +22,9 @@ body {
 .hasil {
 	border: none;
 	background: inherit;
+}
+
+.form-control.banyaknya {
+	display: inline-block;
+	width: inherit;
 }
